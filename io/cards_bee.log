@@ -1,0 +1,80 @@
+scan complete in 17ms
+Connecting to jdbc:hive2://localhost:10000
+Connected to: Apache Hive (version 1.1.0-cdh5.13.1)
+Driver: Hive JDBC (version 1.1.0-cdh5.13.1)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+Running init script inc.hql
+going to print operations logs
+printed operations logs
+Getting log thread is interrupted, since query is done!
+No rows affected (0.152 seconds)
+going to print operations logs
+printed operations logs
+Getting log thread is interrupted, since query is done!
+No rows affected (0.022 seconds)
+going to print operations logs
+printed operations logs
+Getting log thread is interrupted, since query is done!
+No rows affected (0.012 seconds)
+going to print operations logs
+printed operations logs
+Getting log thread is interrupted, since query is done!
+No rows affected (0.032 seconds)
+going to print operations logs
+printed operations logs
+Getting log thread is interrupted, since query is done!
+No rows affected (0.041 seconds)
+No rows affected (0.003 seconds)
+going to print operations logs
+printed operations logs
+Getting log thread is interrupted, since query is done!
+No rows affected (0.009 seconds)
+going to print operations logs
+printed operations logs
+Getting log thread is interrupted, since query is done!
+No rows affected (0.038 seconds)
+going to print operations logs
+printed operations logs
+Getting log thread is interrupted, since query is done!
+INFO  : Compiling command(queryId=hive_20181107141919_ec1be843-6fa1-4dfc-b806-61c51facdae6): DROP TABLE IF EXISTS berka_db.`cards`
+INFO  : Semantic Analysis Completed
+INFO  : Returning Hive schema: Schema(fieldSchemas:null, properties:null)
+INFO  : Completed compiling command(queryId=hive_20181107141919_ec1be843-6fa1-4dfc-b806-61c51facdae6); Time taken: 0.18 seconds
+INFO  : Executing command(queryId=hive_20181107141919_ec1be843-6fa1-4dfc-b806-61c51facdae6): DROP TABLE IF EXISTS berka_db.`cards`
+INFO  : Starting task [Stage-0:DDL] in serial mode
+INFO  : Completed executing command(queryId=hive_20181107141919_ec1be843-6fa1-4dfc-b806-61c51facdae6); Time taken: 0.213 seconds
+INFO  : OK
+No rows affected (0.487 seconds)
+going to print operations logs
+printed operations logs
+Getting log thread is interrupted, since query is done!
+INFO  : Compiling command(queryId=hive_20181107141919_4f771fe0-dbe2-476a-a59e-43c90b1ce4e8): CREATE EXTERNAL TABLE berka_db.`cards`(
+`card_id` int,
+`disp_id` int,
+`type` string,
+`issued` string)
+row format delimited
+fields terminated  by '|'
+lines terminated by '\n'
+stored as textfile
+location '/user/oracle/berka/cards'
+tblproperties ('serialization.null.format'='')
+INFO  : Semantic Analysis Completed
+INFO  : Returning Hive schema: Schema(fieldSchemas:null, properties:null)
+INFO  : Completed compiling command(queryId=hive_20181107141919_4f771fe0-dbe2-476a-a59e-43c90b1ce4e8); Time taken: 0.017 seconds
+INFO  : Executing command(queryId=hive_20181107141919_4f771fe0-dbe2-476a-a59e-43c90b1ce4e8): CREATE EXTERNAL TABLE berka_db.`cards`(
+`card_id` int,
+`disp_id` int,
+`type` string,
+`issued` string)
+row format delimited
+fields terminated  by '|'
+lines terminated by '\n'
+stored as textfile
+location '/user/oracle/berka/cards'
+tblproperties ('serialization.null.format'='')
+INFO  : Starting task [Stage-0:DDL] in serial mode
+INFO  : Completed executing command(queryId=hive_20181107141919_4f771fe0-dbe2-476a-a59e-43c90b1ce4e8); Time taken: 0.146 seconds
+INFO  : OK
+No rows affected (0.219 seconds)
+Closing: 0: jdbc:hive2://localhost:10000

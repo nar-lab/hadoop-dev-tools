@@ -1,0 +1,344 @@
+18/12/11 03:40:21 [main]: DEBUG common.LogUtils: Using hive-site.xml found on CLASSPATH at /etc/hive/conf.bigdatalite/hive-site.xml
+
+Logging initialized using configuration in jar:file:/usr/lib/hive/lib/hive-common-1.1.0-cdh5.13.1.jar!/hive-log4j.properties
+18/12/11 03:40:21 [main]: INFO SessionState: 
+Logging initialized using configuration in jar:file:/usr/lib/hive/lib/hive-common-1.1.0-cdh5.13.1.jar!/hive-log4j.properties
+18/12/11 03:40:21 [main]: DEBUG conf.VariableSubstitution: Substitution is on: hive
+18/12/11 03:40:22 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.use.legacy.blockreader.local = false
+18/12/11 03:40:22 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.read.shortcircuit = true
+18/12/11 03:40:22 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.domain.socket.data.traffic = false
+18/12/11 03:40:22 [main]: DEBUG hdfs.BlockReaderLocal: dfs.domain.socket.path = /var/run/hadoop-hdfs/dn._PORT
+18/12/11 03:40:22 [main]: DEBUG retry.RetryUtils: multipleLinearRandomRetry = null
+18/12/11 03:40:22 [main]: DEBUG ipc.Server: rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@41a90fa8
+18/12/11 03:40:22 [main]: DEBUG ipc.Client: getting client out of cache: org.apache.hadoop.ipc.Client@70dd7e15
+18/12/11 03:40:23 [Thread-4]: DEBUG unix.DomainSocketWatcher: org.apache.hadoop.net.unix.DomainSocketWatcher$2@4e9a9729: starting with interruptCheckPeriodMs = 60000
+18/12/11 03:40:23 [main]: DEBUG shortcircuit.DomainSocketFactory: The short-circuit local reads feature is enabled.
+18/12/11 03:40:23 [main]: DEBUG sasl.DataTransferSaslUtil: DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+18/12/11 03:40:23 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.use.legacy.blockreader.local = false
+18/12/11 03:40:23 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.read.shortcircuit = true
+18/12/11 03:40:23 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.domain.socket.data.traffic = false
+18/12/11 03:40:23 [main]: DEBUG hdfs.BlockReaderLocal: dfs.domain.socket.path = /var/run/hadoop-hdfs/dn._PORT
+18/12/11 03:40:23 [main]: DEBUG retry.RetryUtils: multipleLinearRandomRetry = null
+18/12/11 03:40:23 [main]: DEBUG ipc.Client: getting client out of cache: org.apache.hadoop.ipc.Client@70dd7e15
+18/12/11 03:40:23 [main]: DEBUG sasl.DataTransferSaslUtil: DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+18/12/11 03:40:23 [main]: DEBUG ipc.Client: The ping interval is 60000 ms.
+18/12/11 03:40:23 [main]: DEBUG ipc.Client: Connecting to bigdatalite.localdomain/127.0.0.1:8020
+18/12/11 03:40:23 [IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle: starting, having connections 1
+18/12/11 03:40:23 [IPC Parameter Sending Thread #0]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle sending #0 org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo
+18/12/11 03:40:23 [IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle got value #0
+18/12/11 03:40:23 [main]: DEBUG ipc.ProtobufRpcEngine: Call: getFileInfo took 84ms
+18/12/11 03:40:23 [IPC Parameter Sending Thread #0]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle sending #1 org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo
+18/12/11 03:40:23 [IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle got value #1
+18/12/11 03:40:23 [main]: DEBUG ipc.ProtobufRpcEngine: Call: getFileInfo took 5ms
+18/12/11 03:40:23 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.use.legacy.blockreader.local = false
+18/12/11 03:40:23 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.read.shortcircuit = true
+18/12/11 03:40:23 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.domain.socket.data.traffic = false
+18/12/11 03:40:23 [main]: DEBUG hdfs.BlockReaderLocal: dfs.domain.socket.path = /var/run/hadoop-hdfs/dn._PORT
+18/12/11 03:40:23 [main]: DEBUG retry.RetryUtils: multipleLinearRandomRetry = null
+18/12/11 03:40:23 [main]: DEBUG ipc.Client: getting client out of cache: org.apache.hadoop.ipc.Client@70dd7e15
+18/12/11 03:40:23 [main]: DEBUG sasl.DataTransferSaslUtil: DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+18/12/11 03:40:23 [IPC Parameter Sending Thread #0]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle sending #2 org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo
+18/12/11 03:40:23 [IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle got value #2
+18/12/11 03:40:23 [main]: DEBUG ipc.ProtobufRpcEngine: Call: getFileInfo took 6ms
+18/12/11 03:40:23 [main]: DEBUG nativeio.NativeIO: Initialized cache for IDs to User/Group mapping with a  cache timeout of 14400 seconds.
+18/12/11 03:40:23 [main]: INFO session.SessionState: Created local directory: /tmp/f683e0da-c6d7-44a5-b613-f267e682cef7_resources
+18/12/11 03:40:23 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.use.legacy.blockreader.local = false
+18/12/11 03:40:23 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.read.shortcircuit = true
+18/12/11 03:40:23 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.domain.socket.data.traffic = false
+18/12/11 03:40:23 [main]: DEBUG hdfs.BlockReaderLocal: dfs.domain.socket.path = /var/run/hadoop-hdfs/dn._PORT
+18/12/11 03:40:23 [main]: DEBUG retry.RetryUtils: multipleLinearRandomRetry = null
+18/12/11 03:40:23 [main]: DEBUG ipc.Client: getting client out of cache: org.apache.hadoop.ipc.Client@70dd7e15
+18/12/11 03:40:23 [main]: DEBUG sasl.DataTransferSaslUtil: DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+18/12/11 03:40:23 [IPC Parameter Sending Thread #0]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle sending #3 org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo
+18/12/11 03:40:23 [IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle got value #3
+18/12/11 03:40:23 [main]: DEBUG ipc.ProtobufRpcEngine: Call: getFileInfo took 2ms
+18/12/11 03:40:23 [main]: DEBUG hdfs.DFSClient: /tmp/hive/oracle/f683e0da-c6d7-44a5-b613-f267e682cef7: masked={ masked: rwx------, unmasked: rwx------ }
+18/12/11 03:40:23 [IPC Parameter Sending Thread #0]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle sending #4 org.apache.hadoop.hdfs.protocol.ClientProtocol.mkdirs
+18/12/11 03:40:23 [IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle got value #4
+18/12/11 03:40:23 [main]: DEBUG ipc.ProtobufRpcEngine: Call: mkdirs took 4ms
+18/12/11 03:40:23 [main]: INFO session.SessionState: Created HDFS directory: /tmp/hive/oracle/f683e0da-c6d7-44a5-b613-f267e682cef7
+18/12/11 03:40:23 [IPC Parameter Sending Thread #0]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle sending #5 org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo
+18/12/11 03:40:23 [IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle got value #5
+18/12/11 03:40:23 [main]: DEBUG ipc.ProtobufRpcEngine: Call: getFileInfo took 2ms
+18/12/11 03:40:23 [main]: INFO session.SessionState: Created local directory: /tmp/oracle/f683e0da-c6d7-44a5-b613-f267e682cef7
+18/12/11 03:40:23 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.use.legacy.blockreader.local = false
+18/12/11 03:40:23 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.read.shortcircuit = true
+18/12/11 03:40:23 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.domain.socket.data.traffic = false
+18/12/11 03:40:23 [main]: DEBUG hdfs.BlockReaderLocal: dfs.domain.socket.path = /var/run/hadoop-hdfs/dn._PORT
+18/12/11 03:40:23 [main]: DEBUG retry.RetryUtils: multipleLinearRandomRetry = null
+18/12/11 03:40:23 [main]: DEBUG ipc.Client: getting client out of cache: org.apache.hadoop.ipc.Client@70dd7e15
+18/12/11 03:40:23 [main]: DEBUG sasl.DataTransferSaslUtil: DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+18/12/11 03:40:23 [IPC Parameter Sending Thread #0]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle sending #6 org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo
+18/12/11 03:40:23 [IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle got value #6
+18/12/11 03:40:23 [main]: DEBUG ipc.ProtobufRpcEngine: Call: getFileInfo took 1ms
+18/12/11 03:40:23 [main]: DEBUG hdfs.DFSClient: /tmp/hive/oracle/f683e0da-c6d7-44a5-b613-f267e682cef7/_tmp_space.db: masked={ masked: rwx------, unmasked: rwx------ }
+18/12/11 03:40:23 [IPC Parameter Sending Thread #0]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle sending #7 org.apache.hadoop.hdfs.protocol.ClientProtocol.mkdirs
+18/12/11 03:40:23 [IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle got value #7
+18/12/11 03:40:23 [main]: DEBUG ipc.ProtobufRpcEngine: Call: mkdirs took 2ms
+18/12/11 03:40:23 [main]: INFO session.SessionState: Created HDFS directory: /tmp/hive/oracle/f683e0da-c6d7-44a5-b613-f267e682cef7/_tmp_space.db
+18/12/11 03:40:23 [main]: INFO session.SessionState: No Tez session required at this point. hive.execution.engine=mr.
+set hive.vectorized.execution.enabled=true
+18/12/11 03:40:23 [main]: DEBUG conf.VariableSubstitution: Substitution is on: true
+set hive.exec.parallel=true
+18/12/11 03:40:23 [main]: DEBUG conf.VariableSubstitution: Substitution is on: true
+set hive.enforce.bucketing=true
+18/12/11 03:40:23 [main]: DEBUG conf.VariableSubstitution: Substitution is on: true
+set hive.optimize.bucketmapjoin=true
+18/12/11 03:40:23 [main]: DEBUG conf.VariableSubstitution: Substitution is on: true
+set hive.optimize.bucketmapjoin.sortedmerge=true
+18/12/11 03:40:23 [main]: DEBUG conf.VariableSubstitution: Substitution is on: true
+set hive.auto.convert.join=true
+18/12/11 03:40:23 [main]: DEBUG conf.VariableSubstitution: Substitution is on: true
+set hive.auto.convert.join.noconditionaltask=true
+18/12/11 03:40:23 [main]: DEBUG conf.VariableSubstitution: Substitution is on: true
+set hive.auto.convert.join.use.nonstaged=false
+18/12/11 03:40:23 [main]: DEBUG conf.VariableSubstitution: Substitution is on: false
+DROP TABLE IF EXISTS berka_db.`accounts`
+18/12/11 03:40:23 [main]: INFO log.PerfLogger: <PERFLOG method=Driver.run from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:23 [main]: INFO log.PerfLogger: <PERFLOG method=TimeToSubmit from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:23 [main]: INFO log.PerfLogger: <PERFLOG method=compile from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:23 [main]: DEBUG conf.VariableSubstitution: Substitution is on: DROP TABLE IF EXISTS berka_db.`accounts`
+18/12/11 03:40:23 [main]: INFO ql.Driver: Compiling command(queryId=oracle_20181211034040_0deff391-e852-4bee-b925-632a9ca174b1): DROP TABLE IF EXISTS berka_db.`accounts`
+18/12/11 03:40:23 [main]: INFO log.PerfLogger: <PERFLOG method=parse from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:23 [main]: DEBUG parse.ParseDriver: Parsing command: DROP TABLE IF EXISTS berka_db.`accounts`
+18/12/11 03:40:25 [main]: DEBUG parse.ParseDriver: Parse Completed
+18/12/11 03:40:25 [main]: INFO log.PerfLogger: </PERFLOG method=parse start=1544517623708 end=1544517625921 duration=2213 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:25 [main]: INFO log.PerfLogger: <PERFLOG method=semanticAnalyze from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:29 [main]: INFO hive.metastore: Trying to connect to metastore with URI thrift://bigdatalite.localdomain:9083
+18/12/11 03:40:29 [main]: INFO hive.metastore: Opened a connection to metastore, current connections: 1
+18/12/11 03:40:29 [main]: INFO hive.metastore: Connected to metastore.
+18/12/11 03:40:30 [main]: INFO ql.Driver: Semantic Analysis Completed
+18/12/11 03:40:30 [main]: INFO log.PerfLogger: </PERFLOG method=semanticAnalyze start=1544517625955 end=1544517630214 duration=4259 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:30 [main]: INFO ql.Driver: Returning Hive schema: Schema(fieldSchemas:null, properties:null)
+18/12/11 03:40:30 [main]: INFO log.PerfLogger: </PERFLOG method=compile start=1544517623640 end=1544517630235 duration=6595 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:30 [main]: INFO log.PerfLogger: </PERFLOG method=compile start=1544517623640 end=1544517630235 duration=6595 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:30 [main]: INFO metadata.Hive: Dumping metastore api call timing information for : compilation phase
+18/12/11 03:40:30 [main]: DEBUG metadata.Hive: Total time spent in each metastore function (ms): {getTable_(String, String, )=123, getAllFunctions_()=67}
+18/12/11 03:40:30 [main]: INFO ql.Driver: Completed compiling command(queryId=oracle_20181211034040_0deff391-e852-4bee-b925-632a9ca174b1); Time taken: 6.595 seconds
+18/12/11 03:40:30 [main]: INFO log.PerfLogger: <PERFLOG method=acquireReadWriteLocks from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:30 [main]: INFO lockmgr.DummyTxnManager: Creating lock manager of type org.apache.hadoop.hive.ql.lockmgr.zookeeper.ZooKeeperHiveLockManager
+18/12/11 03:40:30 [main]: INFO imps.CuratorFrameworkImpl: Starting
+18/12/11 03:40:30 [main]: DEBUG curator.CuratorZookeeperClient: Starting
+18/12/11 03:40:30 [main]: DEBUG curator.ConnectionState: Starting
+18/12/11 03:40:30 [main]: DEBUG curator.ConnectionState: reset
+18/12/11 03:40:30 [main]: INFO zookeeper.ZooKeeper: Client environment:zookeeper.version=3.4.5-cdh5.13.1--1, built on 11/09/2017 16:28 GMT
+18/12/11 03:40:30 [main]: INFO zookeeper.ZooKeeper: Client environment:host.name=bigdatalite.localdomain
+18/12/11 03:40:30 [main]: INFO zookeeper.ZooKeeper: Client environment:java.version=1.8.0_151
+18/12/11 03:40:30 [main]: INFO zookeeper.ZooKeeper: Client environment:java.vendor=Oracle Corporation
+18/12/11 03:40:30 [main]: INFO zookeeper.ZooKeeper: Client environment:java.home=/usr/java/jdk1.8.0_151/jre
+18/12/11 03:40:30 [main]: INFO zookeeper.ZooKeeper: Client environment:java.class.path=/etc/hadoop/conf:/usr/lib/hadoop/lib/htrace-core4-4.0.1-incubating.jar:/usr/lib/hadoop/lib/jetty-util-6.1.26.cloudera.4.jar:/usr/lib/hadoop/lib/jetty-6.1.26.cloudera.4.jar:/usr/lib/hadoop/lib/log4j-1.2.17.jar:/usr/lib/hadoop/lib/avro.jar:/usr/lib/hadoop/lib/jets3t-0.9.0.jar:/usr/lib/hadoop/lib/xmlenc-0.52.jar:/usr/lib/hadoop/lib/jasper-compiler-5.5.23.jar:/usr/lib/hadoop/lib/commons-collections-3.2.2.jar:/usr/lib/hadoop/lib/commons-compress-1.4.1.jar:/usr/lib/hadoop/lib/stax-api-1.0-2.jar:/usr/lib/hadoop/lib/commons-codec-1.4.jar:/usr/lib/hadoop/lib/junit-4.11.jar:/usr/lib/hadoop/lib/azure-data-lake-store-sdk-2.2.3.jar:/usr/lib/hadoop/lib/paranamer-2.3.jar:/usr/lib/hadoop/lib/jersey-json-1.9.jar:/usr/lib/hadoop/lib/commons-digester-1.8.jar:/usr/lib/hadoop/lib/httpclient-4.2.5.jar:/usr/lib/hadoop/lib/hamcrest-core-1.3.jar:/usr/lib/hadoop/lib/logredactor-1.0.3.jar:/usr/lib/hadoop/lib/httpcore-4.2.5.jar:/usr/lib/hadoop/lib/gson-2.2.4.jar:/usr/lib/hadoop/lib/commons-net-3.1.jar:/usr/lib/hadoop/lib/mockito-all-1.8.5.jar:/usr/lib/hadoop/lib/guava-11.0.2.jar:/usr/lib/hadoop/lib/xz-1.0.jar:/usr/lib/hadoop/lib/snappy-java-1.0.4.1.jar:/usr/lib/hadoop/lib/commons-beanutils-1.9.2.jar:/usr/lib/hadoop/lib/slf4j-api-1.7.5.jar:/usr/lib/hadoop/lib/commons-el-1.0.jar:/usr/lib/hadoop/lib/jasper-runtime-5.5.23.jar:/usr/lib/hadoop/lib/apacheds-i18n-2.0.0-M15.jar:/usr/lib/hadoop/lib/jsr305-3.0.0.jar:/usr/lib/hadoop/lib/java-xmlbuilder-0.4.jar:/usr/lib/hadoop/lib/servlet-api-2.5.jar:/usr/lib/hadoop/lib/curator-framework-2.7.1.jar:/usr/lib/hadoop/lib/jsp-api-2.1.jar:/usr/lib/hadoop/lib/aws-java-sdk-bundle-1.11.134.jar:/usr/lib/hadoop/lib/commons-logging-1.1.3.jar:/usr/lib/hadoop/lib/jersey-core-1.9.jar:/usr/lib/hadoop/lib/commons-configuration-1.6.jar:/usr/lib/hadoop/lib/asm-3.2.jar:/usr/lib/hadoop/lib/jackson-jaxrs-1.8.8.jar:/usr/lib/hadoop/lib/activation-1.1.jar:/usr/lib/hadoop/lib/commons-beanutils-core-1.8.0.jar:/usr/lib/hadoop/lib/curator-recipes-2.7.1.jar:/usr/lib/hadoop/lib/jaxb-impl-2.2.3-1.jar:/usr/lib/hadoop/lib/hue-plugins-3.9.0-cdh5.13.1.jar:/usr/lib/hadoop/lib/zookeeper.jar:/usr/lib/hadoop/lib/jackson-xc-1.8.8.jar:/usr/lib/hadoop/lib/commons-io-2.4.jar:/usr/lib/hadoop/lib/slf4j-log4j12.jar:/usr/lib/hadoop/lib/protobuf-java-2.5.0.jar:/usr/lib/hadoop/lib/api-asn1-api-1.0.0-M20.jar:/usr/lib/hadoop/lib/curator-client-2.7.1.jar:/usr/lib/hadoop/lib/netty-3.10.5.Final.jar:/usr/lib/hadoop/lib/apacheds-kerberos-codec-2.0.0-M15.jar:/usr/lib/hadoop/lib/commons-cli-1.2.jar:/usr/lib/hadoop/lib/jsch-0.1.42.jar:/usr/lib/hadoop/lib/jaxb-api-2.2.2.jar:/usr/lib/hadoop/lib/jersey-server-1.9.jar:/usr/lib/hadoop/lib/commons-lang-2.6.jar:/usr/lib/hadoop/lib/api-util-1.0.0-M20.jar:/usr/lib/hadoop/lib/jettison-1.1.jar:/usr/lib/hadoop/lib/commons-math3-3.1.1.jar:/usr/lib/hadoop/lib/commons-httpclient-3.1.jar:/usr/lib/hadoop/.//parquet-protobuf.jar:/usr/lib/hadoop/.//parquet-common.jar:/usr/lib/hadoop/.//parquet-scala_2.10.jar:/usr/lib/hadoop/.//parquet-hadoop-bundle.jar:/usr/lib/hadoop/.//hadoop-auth-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop/.//hadoop-aws.jar:/usr/lib/hadoop/.//hadoop-common-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop/.//parquet-encoding.jar:/usr/lib/hadoop/.//hadoop-annotations.jar:/usr/lib/hadoop/.//hadoop-azure-datalake.jar:/usr/lib/hadoop/.//parquet-pig-bundle.jar:/usr/lib/hadoop/.//hadoop-azure-datalake-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop/.//hadoop-annotations-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop/.//hadoop-common.jar:/usr/lib/hadoop/.//parquet-avro.jar:/usr/lib/hadoop/.//hadoop-aws-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop/.//parquet-cascading.jar:/usr/lib/hadoop/.//hadoop-nfs-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop/.//parquet-thrift.jar:/usr/lib/hadoop/.//parquet-generator.jar:/usr/lib/hadoop/.//hadoop-nfs.jar:/usr/lib/hadoop/.//parquet-format-sources.jar:/usr/lib/hadoop/.//parquet-hadoop.jar:/usr/lib/hadoop/.//parquet-jackson.jar:/usr/lib/hadoop/.//parquet-format-javadoc.jar:/usr/lib/hadoop/.//parquet-format.jar:/usr/lib/hadoop/.//parquet-column.jar:/usr/lib/hadoop/.//parquet-scrooge_2.10.jar:/usr/lib/hadoop/.//parquet-tools.jar:/usr/lib/hadoop/.//hadoop-auth.jar:/usr/lib/hadoop/.//hadoop-common-2.6.0-cdh5.13.1-tests.jar:/usr/lib/hadoop/.//hadoop-common-tests.jar:/usr/lib/hadoop/.//parquet-pig.jar:/usr/lib/hadoop/.//parquet-test-hadoop2.jar:/usr/lib/hadoop-hdfs/./:/usr/lib/hadoop-hdfs/lib/htrace-core4-4.0.1-incubating.jar:/usr/lib/hadoop-hdfs/lib/jetty-util-6.1.26.cloudera.4.jar:/usr/lib/hadoop-hdfs/lib/jetty-6.1.26.cloudera.4.jar:/usr/lib/hadoop-hdfs/lib/log4j-1.2.17.jar:/usr/lib/hadoop-hdfs/lib/xmlenc-0.52.jar:/usr/lib/hadoop-hdfs/lib/commons-codec-1.4.jar:/usr/lib/hadoop-hdfs/lib/jackson-core-asl-1.8.8.jar:/usr/lib/hadoop-hdfs/lib/guava-11.0.2.jar:/usr/lib/hadoop-hdfs/lib/xml-apis-1.3.04.jar:/usr/lib/hadoop-hdfs/lib/commons-el-1.0.jar:/usr/lib/hadoop-hdfs/lib/jasper-runtime-5.5.23.jar:/usr/lib/hadoop-hdfs/lib/jsr305-3.0.0.jar:/usr/lib/hadoop-hdfs/lib/servlet-api-2.5.jar:/usr/lib/hadoop-hdfs/lib/jsp-api-2.1.jar:/usr/lib/hadoop-hdfs/lib/commons-logging-1.1.3.jar:/usr/lib/hadoop-hdfs/lib/leveldbjni-all-1.8.jar:/usr/lib/hadoop-hdfs/lib/jersey-core-1.9.jar:/usr/lib/hadoop-hdfs/lib/asm-3.2.jar:/usr/lib/hadoop-hdfs/lib/xercesImpl-2.9.1.jar:/usr/lib/hadoop-hdfs/lib/commons-io-2.4.jar:/usr/lib/hadoop-hdfs/lib/protobuf-java-2.5.0.jar:/usr/lib/hadoop-hdfs/lib/netty-3.10.5.Final.jar:/usr/lib/hadoop-hdfs/lib/commons-cli-1.2.jar:/usr/lib/hadoop-hdfs/lib/jersey-server-1.9.jar:/usr/lib/hadoop-hdfs/lib/commons-lang-2.6.jar:/usr/lib/hadoop-hdfs/lib/jackson-mapper-asl-1.8.8.jar:/usr/lib/hadoop-hdfs/lib/commons-daemon-1.0.13.jar:/usr/lib/hadoop-hdfs/.//hadoop-hdfs-tests.jar:/usr/lib/hadoop-hdfs/.//hadoop-hdfs-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-hdfs/.//hadoop-hdfs-2.6.0-cdh5.13.1-tests.jar:/usr/lib/hadoop-hdfs/.//hadoop-hdfs.jar:/usr/lib/hadoop-hdfs/.//hadoop-hdfs-nfs-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-hdfs/.//hadoop-hdfs-nfs.jar:/usr/lib/hadoop-yarn/lib/jetty-util-6.1.26.cloudera.4.jar:/usr/lib/hadoop-yarn/lib/jetty-6.1.26.cloudera.4.jar:/usr/lib/hadoop-yarn/lib/log4j-1.2.17.jar:/usr/lib/hadoop-yarn/lib/commons-collections-3.2.2.jar:/usr/lib/hadoop-yarn/lib/commons-compress-1.4.1.jar:/usr/lib/hadoop-yarn/lib/stax-api-1.0-2.jar:/usr/lib/hadoop-yarn/lib/commons-codec-1.4.jar:/usr/lib/hadoop-yarn/lib/jersey-json-1.9.jar:/usr/lib/hadoop-yarn/lib/jackson-core-asl-1.8.8.jar:/usr/lib/hadoop-yarn/lib/guice-servlet-3.0.jar:/usr/lib/hadoop-yarn/lib/guava-11.0.2.jar:/usr/lib/hadoop-yarn/lib/xz-1.0.jar:/usr/lib/hadoop-yarn/lib/jline-2.11.jar:/usr/lib/hadoop-yarn/lib/aopalliance-1.0.jar:/usr/lib/hadoop-yarn/lib/jsr305-3.0.0.jar:/usr/lib/hadoop-yarn/lib/jersey-guice-1.9.jar:/usr/lib/hadoop-yarn/lib/servlet-api-2.5.jar:/usr/lib/hadoop-yarn/lib/commons-logging-1.1.3.jar:/usr/lib/hadoop-yarn/lib/leveldbjni-all-1.8.jar:/usr/lib/hadoop-yarn/lib/jersey-core-1.9.jar:/usr/lib/hadoop-yarn/lib/javax.inject-1.jar:/usr/lib/hadoop-yarn/lib/asm-3.2.jar:/usr/lib/hadoop-yarn/lib/jackson-jaxrs-1.8.8.jar:/usr/lib/hadoop-yarn/lib/activation-1.1.jar:/usr/lib/hadoop-yarn/lib/jaxb-impl-2.2.3-1.jar:/usr/lib/hadoop-yarn/lib/zookeeper.jar:/usr/lib/hadoop-yarn/lib/spark-1.6.0-cdh5.13.1-yarn-shuffle.jar:/usr/lib/hadoop-yarn/lib/jackson-xc-1.8.8.jar:/usr/lib/hadoop-yarn/lib/jersey-client-1.9.jar:/usr/lib/hadoop-yarn/lib/commons-io-2.4.jar:/usr/lib/hadoop-yarn/lib/guice-3.0.jar:/usr/lib/hadoop-yarn/lib/protobuf-java-2.5.0.jar:/usr/lib/hadoop-yarn/lib/commons-cli-1.2.jar:/usr/lib/hadoop-yarn/lib/jaxb-api-2.2.2.jar:/usr/lib/hadoop-yarn/lib/spark-yarn-shuffle.jar:/usr/lib/hadoop-yarn/lib/jersey-server-1.9.jar:/usr/lib/hadoop-yarn/lib/commons-lang-2.6.jar:/usr/lib/hadoop-yarn/lib/jettison-1.1.jar:/usr/lib/hadoop-yarn/lib/jackson-mapper-asl-1.8.8.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-client-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-server-common.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-server-nodemanager.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-server-nodemanager-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-server-web-proxy-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-applications-unmanaged-am-launcher-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-api.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-registry.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-server-tests.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-api-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-server-resourcemanager.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-common.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-client.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-applications-distributedshell.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-server-tests-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-server-applicationhistoryservice.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-common-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-server-common-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-server-applicationhistoryservice-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-registry-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-server-resourcemanager-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-applications-distributedshell-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-applications-unmanaged-am-launcher.jar:/usr/lib/hadoop-yarn/.//hadoop-yarn-server-web-proxy.jar:/usr/lib/hadoop-mapreduce/lib/log4j-1.2.17.jar:/usr/lib/hadoop-mapreduce/lib/avro.jar:/usr/lib/hadoop-mapreduce/lib/commons-compress-1.4.1.jar:/usr/lib/hadoop-mapreduce/lib/junit-4.11.jar:/usr/lib/hadoop-mapreduce/lib/paranamer-2.3.jar:/usr/lib/hadoop-mapreduce/lib/hamcrest-core-1.3.jar:/usr/lib/hadoop-mapreduce/lib/jackson-core-asl-1.8.8.jar:/usr/lib/hadoop-mapreduce/lib/guice-servlet-3.0.jar:/usr/lib/hadoop-mapreduce/lib/xz-1.0.jar:/usr/lib/hadoop-mapreduce/lib/snappy-java-1.0.4.1.jar:/usr/lib/hadoop-mapreduce/lib/aopalliance-1.0.jar:/usr/lib/hadoop-mapreduce/lib/jersey-guice-1.9.jar:/usr/lib/hadoop-mapreduce/lib/leveldbjni-all-1.8.jar:/usr/lib/hadoop-mapreduce/lib/jersey-core-1.9.jar:/usr/lib/hadoop-mapreduce/lib/javax.inject-1.jar:/usr/lib/hadoop-mapreduce/lib/asm-3.2.jar:/usr/lib/hadoop-mapreduce/lib/avro-mapred.jar:/usr/lib/hadoop-mapreduce/lib/commons-io-2.4.jar:/usr/lib/hadoop-mapreduce/lib/guice-3.0.jar:/usr/lib/hadoop-mapreduce/lib/protobuf-java-2.5.0.jar:/usr/lib/hadoop-mapreduce/lib/netty-3.10.5.Final.jar:/usr/lib/hadoop-mapreduce/lib/jersey-server-1.9.jar:/usr/lib/hadoop-mapreduce/lib/jackson-mapper-asl-1.8.8.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-hs-plugins.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-jobclient.jar:/usr/lib/hadoop-mapreduce/.//htrace-core4-4.0.1-incubating.jar:/usr/lib/hadoop-mapreduce/.//jetty-util-6.1.26.cloudera.4.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-nativetask.jar:/usr/lib/hadoop-mapreduce/.//hadoop-rumen-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//jetty-6.1.26.cloudera.4.jar:/usr/lib/hadoop-mapreduce/.//hadoop-auth-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//hadoop-distcp-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-jobclient-2.6.0-cdh5.13.1-tests.jar:/usr/lib/hadoop-mapreduce/.//log4j-1.2.17.jar:/usr/lib/hadoop-mapreduce/.//avro.jar:/usr/lib/hadoop-mapreduce/.//jets3t-0.9.0.jar:/usr/lib/hadoop-mapreduce/.//hadoop-datajoin-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//xmlenc-0.52.jar:/usr/lib/hadoop-mapreduce/.//jasper-compiler-5.5.23.jar:/usr/lib/hadoop-mapreduce/.//commons-collections-3.2.2.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-shuffle.jar:/usr/lib/hadoop-mapreduce/.//commons-compress-1.4.1.jar:/usr/lib/hadoop-mapreduce/.//stax-api-1.0-2.jar:/usr/lib/hadoop-mapreduce/.//commons-codec-1.4.jar:/usr/lib/hadoop-mapreduce/.//junit-4.11.jar:/usr/lib/hadoop-mapreduce/.//paranamer-2.3.jar:/usr/lib/hadoop-mapreduce/.//hadoop-rumen.jar:/usr/lib/hadoop-mapreduce/.//hadoop-openstack-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-examples-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-common.jar:/usr/lib/hadoop-mapreduce/.//jersey-json-1.9.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-shuffle-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//hadoop-archives.jar:/usr/lib/hadoop-mapreduce/.//commons-digester-1.8.jar:/usr/lib/hadoop-mapreduce/.//metrics-core-3.0.2.jar:/usr/lib/hadoop-mapreduce/.//okhttp-2.4.0.jar:/usr/lib/hadoop-mapreduce/.//hadoop-extras.jar:/usr/lib/hadoop-mapreduce/.//httpclient-4.2.5.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-app-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//hadoop-azure-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//hadoop-streaming.jar:/usr/lib/hadoop-mapreduce/.//hadoop-gridmix.jar:/usr/lib/hadoop-mapreduce/.//hamcrest-core-1.3.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-common-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//httpcore-4.2.5.jar:/usr/lib/hadoop-mapreduce/.//hadoop-ant.jar:/usr/lib/hadoop-mapreduce/.//jackson-core-asl-1.8.8.jar:/usr/lib/hadoop-mapreduce/.//gson-2.2.4.jar:/usr/lib/hadoop-mapreduce/.//commons-net-3.1.jar:/usr/lib/hadoop-mapreduce/.//mockito-all-1.8.5.jar:/usr/lib/hadoop-mapreduce/.//microsoft-windowsazure-storage-sdk-0.6.0.jar:/usr/lib/hadoop-mapreduce/.//guava-11.0.2.jar:/usr/lib/hadoop-mapreduce/.//xz-1.0.jar:/usr/lib/hadoop-mapreduce/.//snappy-java-1.0.4.1.jar:/usr/lib/hadoop-mapreduce/.//commons-beanutils-1.9.2.jar:/usr/lib/hadoop-mapreduce/.//hadoop-azure.jar:/usr/lib/hadoop-mapreduce/.//commons-el-1.0.jar:/usr/lib/hadoop-mapreduce/.//jasper-runtime-5.5.23.jar:/usr/lib/hadoop-mapreduce/.//apacheds-i18n-2.0.0-M15.jar:/usr/lib/hadoop-mapreduce/.//jsr305-3.0.0.jar:/usr/lib/hadoop-mapreduce/.//java-xmlbuilder-0.4.jar:/usr/lib/hadoop-mapreduce/.//servlet-api-2.5.jar:/usr/lib/hadoop-mapreduce/.//curator-framework-2.7.1.jar:/usr/lib/hadoop-mapreduce/.//jsp-api-2.1.jar:/usr/lib/hadoop-mapreduce/.//okio-1.4.0.jar:/usr/lib/hadoop-mapreduce/.//hadoop-archive-logs.jar:/usr/lib/hadoop-mapreduce/.//hadoop-ant-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//commons-logging-1.1.3.jar:/usr/lib/hadoop-mapreduce/.//hadoop-distcp.jar:/usr/lib/hadoop-mapreduce/.//jersey-core-1.9.jar:/usr/lib/hadoop-mapreduce/.//jackson-core-2.2.3.jar:/usr/lib/hadoop-mapreduce/.//commons-configuration-1.6.jar:/usr/lib/hadoop-mapreduce/.//asm-3.2.jar:/usr/lib/hadoop-mapreduce/.//jackson-jaxrs-1.8.8.jar:/usr/lib/hadoop-mapreduce/.//activation-1.1.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-jobclient-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//commons-beanutils-core-1.8.0.jar:/usr/lib/hadoop-mapreduce/.//curator-recipes-2.7.1.jar:/usr/lib/hadoop-mapreduce/.//jaxb-impl-2.2.3-1.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-app.jar:/usr/lib/hadoop-mapreduce/.//hadoop-gridmix-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-nativetask-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//zookeeper.jar:/usr/lib/hadoop-mapreduce/.//hadoop-streaming-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//jackson-xc-1.8.8.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-jobclient-tests.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-core.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-examples.jar:/usr/lib/hadoop-mapreduce/.//hadoop-archive-logs-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//commons-io-2.4.jar:/usr/lib/hadoop-mapreduce/.//hadoop-datajoin.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-hs.jar:/usr/lib/hadoop-mapreduce/.//hadoop-archives-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//hadoop-sls-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-core-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//protobuf-java-2.5.0.jar:/usr/lib/hadoop-mapreduce/.//api-asn1-api-1.0.0-M20.jar:/usr/lib/hadoop-mapreduce/.//curator-client-2.7.1.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-hs-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//hadoop-mapreduce-client-hs-plugins-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//hadoop-extras-2.6.0-cdh5.13.1.jar:/usr/lib/hadoop-mapreduce/.//hadoop-openstack.jar:/usr/lib/hadoop-mapreduce/.//apacheds-kerberos-codec-2.0.0-M15.jar:/usr/lib/hadoop-mapreduce/.//commons-cli-1.2.jar:/usr/lib/hadoop-mapreduce/.//jsch-0.1.42.jar:/usr/lib/hadoop-mapreduce/.//hadoop-sls.jar:/usr/lib/hadoop-mapreduce/.//jaxb-api-2.2.2.jar:/usr/lib/hadoop-mapreduce/.//hadoop-auth.jar:/usr/lib/hadoop-mapreduce/.//jersey-server-1.9.jar:/usr/lib/hadoop-mapreduce/.//commons-lang-2.6.jar:/usr/lib/hadoop-mapreduce/.//api-util-1.0.0-M20.jar:/usr/lib/hadoop-mapreduce/.//jettison-1.1.jar:/usr/lib/hadoop-mapreduce/.//commons-math3-3.1.1.jar:/usr/lib/hadoop-mapreduce/.//jackson-databind-2.2.3.jar:/usr/lib/hadoop-mapreduce/.//commons-httpclient-3.1.jar:/usr/lib/hadoop-mapreduce/.//jackson-mapper-asl-1.8.8.jar:/usr/lib/hadoop-mapreduce/.//jackson-annotations-2.2.3.jar:/u01/connectors/olh/jlib/osdt_cert.jar:/u01/connectors/olh/jlib/avro-1.8.1.jar:/u01/connectors/olh/jlib/oraloader.jar:/u01/connectors/olh/jlib/ojdbc8.jar:/u01/connectors/olh/jlib/oracle-kafka.jar:/u01/connectors/olh/jlib/commons-math-2.2.jar:/u01/connectors/olh/jlib/osdt_core.jar:/u01/connectors/olh/jlib/oraclepki.jar:/u01/connectors/olh/jlib/avro-mapred-1.8.1-hadoop2.jar:/u01/connectors/olh/jlib/ora-hadoop-common.jar:/u01/connectors/olh/jlib/oraloader-examples.jar:/u01/connectors/olh/jlib/orai18n.jar:/u01/connectors/olh/jlib/orabalancer.jar:/u01/orahivedp/jlib/osdt_cert.jar:/u01/orahivedp/jlib/oraloader.jar:/u01/orahivedp/jlib/orahivedp.jar:/u01/orahivedp/jlib/ojdbc8.jar:/u01/orahivedp/jlib/osdt_core.jar:/u01/orahivedp/jlib/oraclepki.jar:/u01/orahivedp/jlib/ora-hadoop-common.jar:/u01/orahivedp/jlib/orai18n.jar:/etc/hive/conf:/u01/connectors/osch/jlib/osdt_cert.jar:/u01/connectors/osch/jlib/oraloader.jar:/u01/connectors/osch/jlib/ojdbc8.jar:/u01/connectors/osch/jlib/osdt_core.jar:/u01/connectors/osch/jlib/orahdfs.jar:/u01/connectors/osch/jlib/oraclepki.jar:/u01/connectors/osch/jlib/ora-hadoop-common.jar:/u01/connectors/osch/jlib/orai18n.jar:/u01/app/oracle/product/12.1.0.2/dbhome_1/jdbc/lib/ojdbc7dms_g.jar:/u01/app/oracle/product/12.1.0.2/dbhome_1/jdbc/lib/ojdbc7.jar:/u01/app/oracle/product/12.1.0.2/dbhome_1/jdbc/lib/ojdbc6dms.jar:/u01/app/oracle/product/12.1.0.2/dbhome_1/jdbc/lib/ojdbc6dms_g.jar:/u01/app/oracle/product/12.1.0.2/dbhome_1/jdbc/lib/ojdbc6_g.jar:/u01/app/oracle/product/12.1.0.2/dbhome_1/jdbc/lib/ojdbc7_g.jar:/u01/app/oracle/product/12.1.0.2/dbhome_1/jdbc/lib/ojdbc7dms.jar:/u01/app/oracle/product/12.1.0.2/dbhome_1/jdbc/lib/ojdbc6.jar:/u01/app/oracle/product/12.1.0.2/dbhome_1/jdbc/lib/simplefan.jar:/u01/nosql/kv-ee/lib/kvstore.jar:/etc/hive/conf:/usr/lib/hive/lib/accumulo-core-1.6.0.jar:/usr/lib/hive/lib/accumulo-fate-1.6.0.jar:/usr/lib/hive/lib/accumulo-start-1.6.0.jar:/usr/lib/hive/lib/accumulo-trace-1.6.0.jar:/usr/lib/hive/lib/activation-1.1.jar:/usr/lib/hive/lib/ant-1.9.1.jar:/usr/lib/hive/lib/ant-launcher-1.9.1.jar:/usr/lib/hive/lib/antlr-2.7.7.jar:/usr/lib/hive/lib/antlr-runtime-3.4.jar:/usr/lib/hive/lib/apache-log4j-extras-1.2.17.jar:/usr/lib/hive/lib/asm-3.2.jar:/usr/lib/hive/lib/asm-commons-3.1.jar:/usr/lib/hive/lib/asm-tree-3.1.jar:/usr/lib/hive/lib/avro.jar:/usr/lib/hive/lib/bonecp-0.8.0.RELEASE.jar:/usr/lib/hive/lib/calcite-avatica-1.0.0-incubating.jar:/usr/lib/hive/lib/calcite-core-1.0.0-incubating.jar:/usr/lib/hive/lib/calcite-linq4j-1.0.0-incubating.jar:/usr/lib/hive/lib/commons-beanutils-1.9.2.jar:/usr/lib/hive/lib/commons-beanutils-core-1.8.0.jar:/usr/lib/hive/lib/commons-cli-1.2.jar:/usr/lib/hive/lib/commons-codec-1.4.jar:/usr/lib/hive/lib/commons-collections-3.2.2.jar:/usr/lib/hive/lib/commons-compiler-2.7.6.jar:/usr/lib/hive/lib/commons-compress-1.4.1.jar:/usr/lib/hive/lib/commons-configuration-1.6.jar:/usr/lib/hive/lib/commons-dbcp-1.4.jar:/usr/lib/hive/lib/commons-digester-1.8.jar:/usr/lib/hive/lib/commons-el-1.0.jar:/usr/lib/hive/lib/commons-httpclient-3.0.1.jar:/usr/lib/hive/lib/commons-io-2.4.jar:/usr/lib/hive/lib/commons-lang-2.6.jar:/usr/lib/hive/lib/commons-lang3-3.1.jar:/usr/lib/hive/lib/commons-logging-1.1.3.jar:/usr/lib/hive/lib/commons-math-2.1.jar:/usr/lib/hive/lib/commons-pool-1.5.4.jar:/usr/lib/hive/lib/commons-vfs2-2.0.jar:/usr/lib/hive/lib/curator-client-2.6.0.jar:/usr/lib/hive/lib/curator-framework-2.6.0.jar:/usr/lib/hive/lib/curator-recipes-2.6.0.jar:/usr/lib/hive/lib/datanucleus-api-jdo-3.2.6.jar:/usr/lib/hive/lib/datanucleus-core-3.2.10.jar:/usr/lib/hive/lib/datanucleus-rdbms-3.2.9.jar:/usr/lib/hive/lib/derby-10.11.1.1.jar:/usr/lib/hive/lib/eigenbase-properties-1.1.4.jar:/usr/lib/hive/lib/findbugs-annotations-1.3.9-1.jar:/usr/lib/hive/lib/geronimo-annotation_1.0_spec-1.1.1.jar:/usr/lib/hive/lib/geronimo-jaspic_1.0_spec-1.0.jar:/usr/lib/hive/lib/geronimo-jta_1.1_spec-1.1.1.jar:/usr/lib/hive/lib/groovy-all-2.4.4.jar:/usr/lib/hive/lib/gson-2.2.4.jar:/usr/lib/hive/lib/guava-14.0.1.jar:/usr/lib/hive/lib/hamcrest-core-1.1.jar:/usr/lib/hive/lib/hbase-annotations.jar:/usr/lib/hive/lib/high-scale-lib-1.1.1.jar:/usr/lib/hive/lib/hive-accumulo-handler-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-accumulo-handler.jar:/usr/lib/hive/lib/hive-ant-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-ant.jar:/usr/lib/hive/lib/hive-beeline-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-beeline.jar:/usr/lib/hive/lib/hive-cli-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-cli.jar:/usr/lib/hive/lib/hive-common-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-common.jar:/usr/lib/hive/lib/hive-contrib-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-contrib.jar:/usr/lib/hive/lib/hive-exec-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-exec.jar:/usr/lib/hive/lib/hive-hbase-handler-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-hbase-handler.jar:/usr/lib/hive/lib/hive-hwi-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-hwi.jar:/usr/lib/hive/lib/hive-jdbc-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-jdbc-1.1.0-cdh5.13.1-standalone.jar:/usr/lib/hive/lib/hive-jdbc.jar:/usr/lib/hive/lib/hive-jdbc-standalone.jar:/usr/lib/hive/lib/hive-metastore-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-metastore.jar:/usr/lib/hive/lib/hive-serde-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-serde.jar:/usr/lib/hive/lib/hive-service-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-service.jar:/usr/lib/hive/lib/hive-shims-0.23-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-shims-0.23.jar:/usr/lib/hive/lib/hive-shims-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-shims-common-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-shims-common.jar:/usr/lib/hive/lib/hive-shims.jar:/usr/lib/hive/lib/hive-shims-scheduler-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-shims-scheduler.jar:/usr/lib/hive/lib/hive-testutils-1.1.0-cdh5.13.1.jar:/usr/lib/hive/lib/hive-testutils.jar:/usr/lib/hive/lib/httpclient-4.2.5.jar:/usr/lib/hive/lib/httpcore-4.2.5.jar:/usr/lib/hive/lib/ivy-2.0.0-rc2.jar:/usr/lib/hive/lib/jackson-annotations-2.2.2.jar:/usr/lib/hive/lib/jackson-core-2.2.2.jar:/usr/lib/hive/lib/jackson-databind-2.2.2.jar:/usr/lib/hive/lib/jackson-jaxrs-1.9.2.jar:/usr/lib/hive/lib/jackson-xc-1.9.2.jar:/usr/lib/hive/lib/jamon-runtime-2.3.1.jar:/usr/lib/hive/lib/janino-2.7.6.jar:/usr/lib/hive/lib/jasper-compiler-5.5.23.jar:/usr/lib/hive/lib/jasper-runtime-5.5.23.jar:/usr/lib/hive/lib/jcommander-1.32.jar:/usr/lib/hive/lib/jdo-api-3.0.1.jar:/usr/lib/hive/lib/jersey-server-1.14.jar:/usr/lib/hive/lib/jersey-servlet-1.14.jar:/usr/lib/hive/lib/jetty-all-7.6.0.v20120127.jar:/usr/lib/hive/lib/jetty-all-server-7.6.0.v20120127.jar:/usr/lib/hive/lib/jline-2.12.jar:/usr/lib/hive/lib/joda-time-1.6.jar:/usr/lib/hive/lib/jpam-1.1.jar:/usr/lib/hive/lib/jsp-api-2.1.jar:/usr/lib/hive/lib/jsr305-3.0.0.jar:/usr/lib/hive/lib/jta-1.1.jar:/usr/lib/hive/lib/junit-4.11.jar:/usr/lib/hive/lib/libfb303-0.9.3.jar:/usr/lib/hive/lib/libthrift-0.9.3.jar:/usr/lib/hive/lib/log4j-1.2.16.jar:/usr/lib/hive/lib/logredactor-1.0.3.jar:/usr/lib/hive/lib/mail-1.4.1.jar:/usr/lib/hive/lib/maven-scm-api-1.4.jar:/usr/lib/hive/lib/maven-scm-provider-svn-commons-1.4.jar:/usr/lib/hive/lib/maven-scm-provider-svnexe-1.4.jar:/usr/lib/hive/lib/metrics-core-3.0.2.jar:/usr/lib/hive/lib/metrics-json-3.0.2.jar:/usr/lib/hive/lib/metrics-jvm-3.0.2.jar:/usr/lib/hive/lib/mysql-connector-java.jar:/usr/lib/hive/lib/opencsv-2.3.jar:/usr/lib/hive/lib/oro-2.0.8.jar:/usr/lib/hive/lib/paranamer-2.3.jar:/usr/lib/hive/lib/parquet-hadoop-bundle.jar:/usr/lib/hive/lib/pentaho-aggdesigner-algorithm-5.1.5-jhyde.jar:/usr/lib/hive/lib/plexus-utils-1.5.6.jar:/usr/lib/hive/lib/regexp-1.3.jar:/usr/lib/hive/lib/servlet-api-2.5.jar:/usr/lib/hive/lib/snappy-java-1.0.4.1.jar:/usr/lib/hive/lib/ST4-4.0.4.jar:/usr/lib/hive/lib/stax-api-1.0.1.jar:/usr/lib/hive/lib/stringtemplate-3.2.1.jar:/usr/lib/hive/lib/super-csv-2.2.0.jar:/usr/lib/hive/lib/tempus-fugit-1.1.jar:/usr/lib/hive/lib/velocity-1.5.jar:/usr/lib/hive/lib/xz-1.0.jar:/usr/lib/hive/lib/zookeeper.jar:/usr/lib/spark/lib/spark-assembly-1.6.0-cdh5.13.1-hadoop2.6.0-cdh5.13.1.jar::/opt/hive-aux-jars/orai18n-mapping.jar:/opt/hive-aux-jars/orai18n-collation.jar:/opt/hive-aux-jars/oraloader.jar:/opt/hive-aux-jars/xmlparserv2_sans_jaxp_services.jar:/opt/hive-aux-jars/orai18n.jar:/opt/hive-aux-jars/woodstox-core-5.0.2.jar:/opt/hive-aux-jars/oxquery.jar:/opt/hive-aux-jars/ucp.jar:/opt/hive-aux-jars/oxh-mapreduce.jar:/opt/hive-aux-jars/xqjapi.jar:/opt/hive-aux-jars/apache-xmlbeans.jar:/opt/hive-aux-jars/orahivedp.jar:/opt/hive-aux-jars/kvclient.jar:/opt/hive-aux-jars/oxh-hive.jar:/opt/hive-aux-jars/hive-hcatalog-core.jar:/opt/hive-aux-jars/ora-hadoop-common.jar:/opt/hive-aux-jars/orai18n-utility.jar:/opt/hive-aux-jars/stax2-api-3.1.4.jar:/opt/hive-aux-jars/threetenbp.jar:/opt/hive-aux-jars/ojdbc7.jar:/opt/hive-aux-jars/osh.jar:/usr/lib/hive/lib/hive-hbase-handler-1.1.0-cdh5.13.1.jar:/usr/lib/hbase/hbase-hadoop2-compat.jar:/usr/lib/hbase/hbase-client.jar:/usr/lib/hbase/hbase-server.jar:/usr/lib/hbase/hbase-hadoop-compat.jar:/usr/lib/hbase/hbase-protocol.jar:/usr/lib/hbase/lib/htrace-core4-4.0.1-incubating.jar:/usr/lib/hbase/lib/htrace-core.jar:/usr/lib/hbase/lib/htrace-core-3.2.0-incubating.jar:/usr/lib/hbase/hbase-common.jar:/usr/share/java/mysql-connector-java.jar:/usr/share/cmf/lib/postgresql-9.0-801.jdbc4.jar:/usr/lib/hive/auxlib/hive-exec-1.1.0-cdh5.13.1-core.jar:/usr/lib/hive/auxlib/hive-exec-core.jar:/etc/hbase/conf:/usr/lib/hbase/lib/netty-all-4.0.23.Final.jar:/usr/lib/hbase/lib/hbase-prefix-tree-1.2.0-cdh5.13.1.jar:/usr/lib/hbase/lib/hbase-common-1.2.0-cdh5.13.1.jar:/usr/lib/hbase/lib/hbase-hadoop-compat-1.2.0-cdh5.13.1.jar:/usr/lib/hbase/lib/hbase-server-1.2.0-cdh5.13.1.jar:/usr/lib/hbase/lib/htrace-core-3.2.0-incubating.jar:/usr/lib/hbase/lib/hbase-protocol-1.2.0-cdh5.13.1.jar:/usr/lib/hbase/lib/metrics-core-2.2.0.jar:/usr/lib/hbase/lib/hbase-client-1.2.0-cdh5.13.1.jar
+18/12/11 03:40:30 [main]: INFO zookeeper.ZooKeeper: Client environment:java.library.path=/usr/lib/hadoop/lib/native
+18/12/11 03:40:30 [main]: INFO zookeeper.ZooKeeper: Client environment:java.io.tmpdir=/tmp
+18/12/11 03:40:30 [main]: INFO zookeeper.ZooKeeper: Client environment:java.compiler=<NA>
+18/12/11 03:40:30 [main]: INFO zookeeper.ZooKeeper: Client environment:os.name=Linux
+18/12/11 03:40:30 [main]: INFO zookeeper.ZooKeeper: Client environment:os.arch=amd64
+18/12/11 03:40:30 [main]: INFO zookeeper.ZooKeeper: Client environment:os.version=4.1.12-112.14.1.el6uek.x86_64
+18/12/11 03:40:30 [main]: INFO zookeeper.ZooKeeper: Client environment:user.name=oracle
+18/12/11 03:40:30 [main]: INFO zookeeper.ZooKeeper: Client environment:user.home=/home/oracle
+18/12/11 03:40:30 [main]: INFO zookeeper.ZooKeeper: Client environment:user.dir=/home/oracle/hadoop-framework/hive
+18/12/11 03:40:30 [main]: INFO zookeeper.ZooKeeper: Initiating client connection, connectString=bigdatalite.localdomain:2181 sessionTimeout=1200000 watcher=org.apache.curator.ConnectionState@5ba26eb0
+18/12/11 03:40:30 [main]: DEBUG zookeeper.ClientCnxn: zookeeper.disableAutoWatchReset is false
+18/12/11 03:40:30 [main-SendThread(bigdatalite.localdomain:2181)]: INFO zookeeper.ClientCnxn: Opening socket connection to server bigdatalite.localdomain/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+18/12/11 03:40:30 [main-SendThread(bigdatalite.localdomain:2181)]: INFO zookeeper.ClientCnxn: Socket connection established, initiating session, client: /127.0.0.1:35278, server: bigdatalite.localdomain/127.0.0.1:2181
+18/12/11 03:40:30 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Session establishment request sent on bigdatalite.localdomain/127.0.0.1:2181
+18/12/11 03:40:30 [main-SendThread(bigdatalite.localdomain:2181)]: INFO zookeeper.ClientCnxn: Session establishment complete on server bigdatalite.localdomain/127.0.0.1:2181, sessionid = 0x1679c014fc00011, negotiated timeout = 40000
+18/12/11 03:40:30 [main-EventThread]: INFO state.ConnectionStateManager: State change: CONNECTED
+18/12/11 03:40:31 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,30554,-110  request:: '/hive_zookeeper_namespace_hive,,v{s{31,s{'world,'anyone}}},0  response::  
+18/12/11 03:40:31 [main]: DEBUG lockmgr.DummyTxnManager: Adding berka_db@accounts to list of lock inputs
+18/12/11 03:40:31 [main]: DEBUG lockmgr.DummyTxnManager: Adding berka_db@accounts to list of lock outputs
+18/12/11 03:40:31 [main]: DEBUG ZooKeeperHiveLockManager: Acquiring lock for berka_db with mode IMPLICIT
+18/12/11 03:40:31 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 2,1  replyHeader:: 2,30555,0  request:: '/hive_zookeeper_namespace_hive/berka_db,,v{s{31,s{'world,'anyone}}},0  response:: '/hive_zookeeper_namespace_hive/berka_db 
+18/12/11 03:40:31 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 3,1  replyHeader:: 3,30556,0  request:: '/hive_zookeeper_namespace_hive/berka_db/LOCK-SHARED-,#6f7261636c655f32303138313231313033343034305f30646566663339312d653835322d346265652d623932352d3633326139636131373462313a313534343531373633313631313a494d504c494349543a44524f50205441424c4520494620455849535453206265726b615f64622e606163636f756e7473603a3132372e302e302e31,v{s{31,s{'world,'anyone}}},3  response:: '/hive_zookeeper_namespace_hive/berka_db/LOCK-SHARED-0000000000 
+18/12/11 03:40:31 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 4,12  replyHeader:: 4,30556,0  request:: '/hive_zookeeper_namespace_hive/berka_db,F  response:: v{'LOCK-SHARED-0000000000},s{30555,30555,1544517631640,1544517631640,0,1,0,0,0,1,30556} 
+18/12/11 03:40:31 [main]: DEBUG ZooKeeperHiveLockManager: Acquiring lock for berka_db/accounts with mode IMPLICIT
+18/12/11 03:40:31 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 5,1  replyHeader:: 5,30557,0  request:: '/hive_zookeeper_namespace_hive/berka_db/accounts,,v{s{31,s{'world,'anyone}}},0  response:: '/hive_zookeeper_namespace_hive/berka_db/accounts 
+18/12/11 03:40:31 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 6,1  replyHeader:: 6,30558,0  request:: '/hive_zookeeper_namespace_hive/berka_db/accounts/LOCK-EXCLUSIVE-,#6f7261636c655f32303138313231313033343034305f30646566663339312d653835322d346265652d623932352d3633326139636131373462313a313534343531373633313632383a494d504c494349543a44524f50205441424c4520494620455849535453206265726b615f64622e606163636f756e7473603a3132372e302e302e31,v{s{31,s{'world,'anyone}}},3  response:: '/hive_zookeeper_namespace_hive/berka_db/accounts/LOCK-EXCLUSIVE-0000000000 
+18/12/11 03:40:31 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 7,12  replyHeader:: 7,30558,0  request:: '/hive_zookeeper_namespace_hive/berka_db/accounts,F  response:: v{'LOCK-EXCLUSIVE-0000000000},s{30557,30557,1544517631738,1544517631738,0,1,0,0,0,1,30558} 
+18/12/11 03:40:31 [main]: INFO log.PerfLogger: </PERFLOG method=acquireReadWriteLocks start=1544517630246 end=1544517631775 duration=1529 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:31 [main]: INFO log.PerfLogger: <PERFLOG method=Driver.execute from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:31 [main]: INFO ql.Driver: Executing command(queryId=oracle_20181211034040_0deff391-e852-4bee-b925-632a9ca174b1): DROP TABLE IF EXISTS berka_db.`accounts`
+18/12/11 03:40:31 [main]: INFO log.PerfLogger: </PERFLOG method=TimeToSubmit start=1544517623639 end=1544517631859 duration=8220 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:31 [main]: INFO log.PerfLogger: <PERFLOG method=runTasks from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:31 [main]: INFO ql.Driver: Starting task [Stage-0:DDL] in serial mode
+18/12/11 03:40:32 [main]: INFO log.PerfLogger: </PERFLOG method=runTasks start=1544517631860 end=1544517632485 duration=625 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:32 [main]: INFO log.PerfLogger: </PERFLOG method=Driver.execute start=1544517631777 end=1544517632486 duration=709 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:32 [main]: INFO metadata.Hive: Dumping metastore api call timing information for : execution phase
+18/12/11 03:40:32 [main]: DEBUG metadata.Hive: Total time spent in each metastore function (ms): {isCompatibleWith_(HiveConf, )=3, dropTable_(String, String, boolean, boolean, boolean, )=438, getTable_(String, String, )=100}
+18/12/11 03:40:32 [main]: INFO ql.Driver: Completed executing command(queryId=oracle_20181211034040_0deff391-e852-4bee-b925-632a9ca174b1); Time taken: 0.709 seconds
+OK
+18/12/11 03:40:32 [main]: INFO ql.Driver: OK
+18/12/11 03:40:32 [main]: INFO log.PerfLogger: <PERFLOG method=releaseLocks from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:32 [main]: DEBUG ZooKeeperHiveLockManager: About to release lock for berka_db/accounts
+18/12/11 03:40:32 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 8,2  replyHeader:: 8,30559,0  request:: '/hive_zookeeper_namespace_hive/berka_db/accounts/LOCK-EXCLUSIVE-0000000000,-1  response:: null
+18/12/11 03:40:32 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 9,12  replyHeader:: 9,30559,0  request:: '/hive_zookeeper_namespace_hive/berka_db/accounts,F  response:: v{},s{30557,30557,1544517631738,1544517631738,0,2,0,0,0,0,30559} 
+18/12/11 03:40:32 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 10,2  replyHeader:: 10,30560,0  request:: '/hive_zookeeper_namespace_hive/berka_db/accounts,-1  response:: null
+18/12/11 03:40:32 [main]: DEBUG ZooKeeperHiveLockManager: About to release lock for berka_db
+18/12/11 03:40:32 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 11,2  replyHeader:: 11,30561,0  request:: '/hive_zookeeper_namespace_hive/berka_db/LOCK-SHARED-0000000000,-1  response:: null
+18/12/11 03:40:32 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 12,12  replyHeader:: 12,30561,0  request:: '/hive_zookeeper_namespace_hive/berka_db,F  response:: v{},s{30555,30555,1544517631640,1544517631640,0,4,0,0,0,0,30561} 
+18/12/11 03:40:32 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 13,2  replyHeader:: 13,30562,0  request:: '/hive_zookeeper_namespace_hive/berka_db,-1  response:: null
+18/12/11 03:40:32 [main]: INFO log.PerfLogger: </PERFLOG method=releaseLocks start=1544517632489 end=1544517632570 duration=81 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:32 [main]: INFO log.PerfLogger: </PERFLOG method=Driver.run start=1544517623638 end=1544517632571 duration=8933 from=org.apache.hadoop.hive.ql.Driver>
+Time taken: 8.938 seconds
+18/12/11 03:40:32 [main]: INFO CliDriver: Time taken: 8.938 seconds
+
+CREATE EXTERNAL TABLE berka_db.`accounts`(
+  `account_id` int,
+  `district_id` int,
+  `frequency` string,
+  `date` int
+)
+row format delimited
+fields terminated  by '|'
+lines terminated by '\n'
+stored as textfile
+location '/user/oracle/berka/accounts'
+tblproperties ('serialization.null.format'='')
+18/12/11 03:40:32 [main]: INFO log.PerfLogger: <PERFLOG method=Driver.run from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:32 [main]: INFO log.PerfLogger: <PERFLOG method=TimeToSubmit from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:32 [main]: INFO log.PerfLogger: <PERFLOG method=compile from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:32 [main]: DEBUG conf.VariableSubstitution: Substitution is on: 
+CREATE EXTERNAL TABLE berka_db.`accounts`(
+  `account_id` int,
+  `district_id` int,
+  `frequency` string,
+  `date` int
+)
+row format delimited
+fields terminated  by '|'
+lines terminated by '\n'
+stored as textfile
+location '/user/oracle/berka/accounts'
+tblproperties ('serialization.null.format'='')
+18/12/11 03:40:32 [main]: INFO ql.Driver: Compiling command(queryId=oracle_20181211034040_08154312-7e2c-43e1-a0e2-b53dcdff8767): 
+CREATE EXTERNAL TABLE berka_db.`accounts`(
+  `account_id` int,
+  `district_id` int,
+  `frequency` string,
+  `date` int
+)
+row format delimited
+fields terminated  by '|'
+lines terminated by '\n'
+stored as textfile
+location '/user/oracle/berka/accounts'
+tblproperties ('serialization.null.format'='')
+18/12/11 03:40:32 [main]: INFO log.PerfLogger: <PERFLOG method=parse from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:32 [main]: DEBUG parse.ParseDriver: Parsing command: 
+CREATE EXTERNAL TABLE berka_db.`accounts`(
+  `account_id` int,
+  `district_id` int,
+  `frequency` string,
+  `date` int
+)
+row format delimited
+fields terminated  by '|'
+lines terminated by '\n'
+stored as textfile
+location '/user/oracle/berka/accounts'
+tblproperties ('serialization.null.format'='')
+18/12/11 03:40:32 [main]: DEBUG parse.ParseDriver: Parse Completed
+18/12/11 03:40:32 [main]: INFO log.PerfLogger: </PERFLOG method=parse start=1544517632592 end=1544517632706 duration=114 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:32 [main]: INFO log.PerfLogger: <PERFLOG method=semanticAnalyze from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:33 [main]: INFO parse.CalcitePlanner: Starting Semantic Analysis
+18/12/11 03:40:33 [main]: INFO parse.CalcitePlanner: Creating table berka_db.accounts position=22
+18/12/11 03:40:33 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.use.legacy.blockreader.local = false
+18/12/11 03:40:33 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.read.shortcircuit = true
+18/12/11 03:40:33 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.domain.socket.data.traffic = false
+18/12/11 03:40:33 [main]: DEBUG hdfs.BlockReaderLocal: dfs.domain.socket.path = /var/run/hadoop-hdfs/dn._PORT
+18/12/11 03:40:33 [main]: DEBUG retry.RetryUtils: multipleLinearRandomRetry = null
+18/12/11 03:40:33 [main]: DEBUG ipc.Client: getting client out of cache: org.apache.hadoop.ipc.Client@70dd7e15
+18/12/11 03:40:33 [main]: DEBUG sasl.DataTransferSaslUtil: DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+18/12/11 03:40:33 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.use.legacy.blockreader.local = false
+18/12/11 03:40:33 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.read.shortcircuit = true
+18/12/11 03:40:33 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.domain.socket.data.traffic = false
+18/12/11 03:40:33 [main]: DEBUG hdfs.BlockReaderLocal: dfs.domain.socket.path = /var/run/hadoop-hdfs/dn._PORT
+18/12/11 03:40:33 [main]: DEBUG retry.RetryUtils: multipleLinearRandomRetry = null
+18/12/11 03:40:33 [main]: DEBUG ipc.Client: getting client out of cache: org.apache.hadoop.ipc.Client@70dd7e15
+18/12/11 03:40:33 [main]: DEBUG sasl.DataTransferSaslUtil: DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+18/12/11 03:40:33 [main]: INFO ql.Driver: Semantic Analysis Completed
+18/12/11 03:40:33 [main]: DEBUG parse.CalcitePlanner: validation start
+18/12/11 03:40:33 [main]: DEBUG parse.CalcitePlanner: not validating writeEntity, because entity is neither table nor partition
+18/12/11 03:40:33 [main]: DEBUG parse.CalcitePlanner: Not a partition.
+18/12/11 03:40:33 [main]: INFO log.PerfLogger: </PERFLOG method=semanticAnalyze start=1544517632706 end=1544517633370 duration=664 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:33 [main]: INFO ql.Driver: Returning Hive schema: Schema(fieldSchemas:null, properties:null)
+18/12/11 03:40:33 [main]: INFO log.PerfLogger: </PERFLOG method=compile start=1544517632587 end=1544517633370 duration=783 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:33 [main]: INFO log.PerfLogger: </PERFLOG method=compile start=1544517632587 end=1544517633370 duration=783 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:33 [main]: INFO metadata.Hive: Dumping metastore api call timing information for : compilation phase
+18/12/11 03:40:33 [main]: DEBUG metadata.Hive: Total time spent in each metastore function (ms): {isCompatibleWith_(HiveConf, )=2, getDatabase_(String, )=137}
+18/12/11 03:40:33 [main]: INFO ql.Driver: Completed compiling command(queryId=oracle_20181211034040_08154312-7e2c-43e1-a0e2-b53dcdff8767); Time taken: 0.783 seconds
+18/12/11 03:40:33 [main]: INFO log.PerfLogger: <PERFLOG method=acquireReadWriteLocks from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:33 [main]: DEBUG lockmgr.DummyTxnManager: Adding hdfs://bigdatalite.localdomain:8020/user/oracle/berka/accounts to list of lock inputs
+18/12/11 03:40:33 [main]: DEBUG lockmgr.DummyTxnManager: Adding database:berka_db to list of lock outputs
+18/12/11 03:40:33 [main]: DEBUG ZooKeeperHiveLockManager: Acquiring lock for berka_db with mode IMPLICIT
+18/12/11 03:40:33 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 14,1  replyHeader:: 14,30563,0  request:: '/hive_zookeeper_namespace_hive/berka_db,,v{s{31,s{'world,'anyone}}},0  response:: '/hive_zookeeper_namespace_hive/berka_db 
+18/12/11 03:40:33 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 15,1  replyHeader:: 15,30564,0  request:: '/hive_zookeeper_namespace_hive/berka_db/LOCK-SHARED-,#6f7261636c655f32303138313231313033343034305f30383135343331322d376532632d343365312d613065322d6235336463646666383736373a313534343531373633333337323a494d504c494349543a4352454154452045585445524e414c205441424c45206265726b615f64622e606163636f756e74736028a2020606163636f756e745f69646020696e742ca20206064697374726963745f69646020696e742ca2020606672657175656e63796020737472696e672ca202060646174656020696e74a29a726f7720666f726d61742064656c696d69746564a6669656c6473207465726d696e617465642020627920277c27a6c696e6573207465726d696e6174656420627920275c6e27a73746f726564206173207465787466696c65a6c6f636174696f6e20272f757365722f6f7261636c652f6265726b612f6163636f756e747327a74626c70726f7065727469657320282773657269616c697a6174696f6e2e6e756c6c2e666f726d6174273d2727293a3132372e302e302e31,v{s{31,s{'world,'anyone}}},3  response:: '/hive_zookeeper_namespace_hive/berka_db/LOCK-SHARED-0000000000 
+18/12/11 03:40:33 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 16,12  replyHeader:: 16,30564,0  request:: '/hive_zookeeper_namespace_hive/berka_db,F  response:: v{'LOCK-SHARED-0000000000},s{30563,30563,1544517633374,1544517633374,0,1,0,0,0,1,30564} 
+18/12/11 03:40:33 [main]: INFO log.PerfLogger: </PERFLOG method=acquireReadWriteLocks start=1544517633371 end=1544517633403 duration=32 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:33 [main]: INFO log.PerfLogger: <PERFLOG method=Driver.execute from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:33 [main]: INFO ql.Driver: Executing command(queryId=oracle_20181211034040_08154312-7e2c-43e1-a0e2-b53dcdff8767): 
+CREATE EXTERNAL TABLE berka_db.`accounts`(
+  `account_id` int,
+  `district_id` int,
+  `frequency` string,
+  `date` int
+)
+row format delimited
+fields terminated  by '|'
+lines terminated by '\n'
+stored as textfile
+location '/user/oracle/berka/accounts'
+tblproperties ('serialization.null.format'='')
+18/12/11 03:40:33 [main]: INFO log.PerfLogger: </PERFLOG method=TimeToSubmit start=1544517632586 end=1544517633410 duration=824 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:33 [main]: INFO log.PerfLogger: <PERFLOG method=runTasks from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:33 [main]: INFO ql.Driver: Starting task [Stage-0:DDL] in serial mode
+18/12/11 03:40:33 [main]: DEBUG exec.DDLTask: Found class for org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe
+18/12/11 03:40:33 [main]: DEBUG hive.log: DDL: struct accounts { i32 account_id, i32 district_id, string frequency, i32 date}
+18/12/11 03:40:33 [IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle: closed
+18/12/11 03:40:33 [IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle: stopped, remaining connections 0
+18/12/11 03:40:34 [main]: DEBUG lazy.LazySimpleSerDe: org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe initialized with: columnNames=[account_id, district_id, frequency, date] columnTypes=[int, int, string, int] separator=[[B@298f0a0b] nullstring= lastColumnTakesRest=false timestampFormats=null
+18/12/11 03:40:34 [main]: INFO log.PerfLogger: </PERFLOG method=runTasks start=1544517633413 end=1544517634498 duration=1085 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:34 [main]: INFO log.PerfLogger: </PERFLOG method=Driver.execute start=1544517633404 end=1544517634500 duration=1096 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:34 [main]: INFO metadata.Hive: Dumping metastore api call timing information for : execution phase
+18/12/11 03:40:34 [main]: DEBUG metadata.Hive: Total time spent in each metastore function (ms): {createTable_(Table, )=102, isCompatibleWith_(HiveConf, )=2}
+18/12/11 03:40:34 [main]: INFO ql.Driver: Completed executing command(queryId=oracle_20181211034040_08154312-7e2c-43e1-a0e2-b53dcdff8767); Time taken: 1.096 seconds
+OK
+18/12/11 03:40:34 [main]: INFO ql.Driver: OK
+18/12/11 03:40:34 [main]: INFO log.PerfLogger: <PERFLOG method=releaseLocks from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:34 [main]: DEBUG ZooKeeperHiveLockManager: About to release lock for berka_db
+18/12/11 03:40:34 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 17,2  replyHeader:: 17,30565,0  request:: '/hive_zookeeper_namespace_hive/berka_db/LOCK-SHARED-0000000000,-1  response:: null
+18/12/11 03:40:34 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 18,12  replyHeader:: 18,30565,0  request:: '/hive_zookeeper_namespace_hive/berka_db,F  response:: v{},s{30563,30563,1544517633374,1544517633374,0,2,0,0,0,0,30565} 
+18/12/11 03:40:34 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 19,2  replyHeader:: 19,30566,0  request:: '/hive_zookeeper_namespace_hive/berka_db,-1  response:: null
+18/12/11 03:40:34 [main]: INFO log.PerfLogger: </PERFLOG method=releaseLocks start=1544517634503 end=1544517634519 duration=16 from=org.apache.hadoop.hive.ql.Driver>
+18/12/11 03:40:34 [main]: INFO log.PerfLogger: </PERFLOG method=Driver.run start=1544517632586 end=1544517634520 duration=1934 from=org.apache.hadoop.hive.ql.Driver>
+Time taken: 1.935 seconds
+18/12/11 03:40:34 [main]: INFO CliDriver: Time taken: 1.935 seconds
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+18/12/11 03:40:34 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.use.legacy.blockreader.local = false
+18/12/11 03:40:34 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.read.shortcircuit = true
+18/12/11 03:40:34 [main]: DEBUG hdfs.BlockReaderLocal: dfs.client.domain.socket.data.traffic = false
+18/12/11 03:40:34 [main]: DEBUG hdfs.BlockReaderLocal: dfs.domain.socket.path = /var/run/hadoop-hdfs/dn._PORT
+18/12/11 03:40:34 [main]: DEBUG retry.RetryUtils: multipleLinearRandomRetry = null
+18/12/11 03:40:34 [main]: DEBUG ipc.Client: getting client out of cache: org.apache.hadoop.ipc.Client@70dd7e15
+18/12/11 03:40:34 [main]: DEBUG sasl.DataTransferSaslUtil: DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+18/12/11 03:40:34 [main]: DEBUG ipc.Client: The ping interval is 60000 ms.
+18/12/11 03:40:34 [main]: DEBUG ipc.Client: Connecting to bigdatalite.localdomain/127.0.0.1:8020
+18/12/11 03:40:34 [IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle: starting, having connections 1
+18/12/11 03:40:34 [IPC Parameter Sending Thread #0]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle sending #8 org.apache.hadoop.hdfs.protocol.ClientProtocol.delete
+18/12/11 03:40:34 [IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle]: DEBUG ipc.Client: IPC Client (1692375649) connection to bigdatalite.localdomain/127.0.0.1:8020 from oracle got value #8
+18/12/11 03:40:34 [main]: DEBUG ipc.ProtobufRpcEngine: Call: delete took 19ms
+18/12/11 03:40:34 [main]: INFO session.SessionState: Deleted directory: /tmp/hive/oracle/f683e0da-c6d7-44a5-b613-f267e682cef7 on fs with scheme hdfs
+18/12/11 03:40:34 [main]: INFO session.SessionState: Deleted directory: /tmp/oracle/f683e0da-c6d7-44a5-b613-f267e682cef7 on fs with scheme file
+18/12/11 03:40:34 [main]: DEBUG metadata.Hive: Closing current thread's connection to Hive Metastore.
+18/12/11 03:40:34 [main]: INFO hive.metastore: Closed a connection to metastore, current connections: 0
+18/12/11 03:40:34 [Thread-7]: DEBUG imps.CuratorFrameworkImpl: Closing
+18/12/11 03:40:34 [Thread-7]: DEBUG curator.CuratorZookeeperClient: Closing
+18/12/11 03:40:34 [Thread-7]: DEBUG curator.ConnectionState: Closing
+18/12/11 03:40:34 [Thread-7]: DEBUG zookeeper.ZooKeeper: Closing session: 0x1679c014fc00011
+18/12/11 03:40:34 [Thread-7]: DEBUG zookeeper.ClientCnxn: Closing client for session: 0x1679c014fc00011
+18/12/11 03:40:34 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: Reading reply sessionid:0x1679c014fc00011, packet:: clientPath:null serverPath:null finished:false header:: 20,-11  replyHeader:: 20,30567,0  request:: null response:: null
+18/12/11 03:40:34 [main-SendThread(bigdatalite.localdomain:2181)]: DEBUG zookeeper.ClientCnxn: An exception was thrown while closing send thread for session 0x1679c014fc00011 : Unable to read additional data from server sessionid 0x1679c014fc00011, likely server has closed socket
+18/12/11 03:40:34 [Thread-7]: DEBUG zookeeper.ClientCnxn: Disconnecting client for session: 0x1679c014fc00011
+18/12/11 03:40:34 [Thread-7]: INFO zookeeper.ZooKeeper: Session: 0x1679c014fc00011 closed
+18/12/11 03:40:34 [main-EventThread]: INFO zookeeper.ClientCnxn: EventThread shut down
+18/12/11 03:40:34 [Thread-7]: INFO CuratorFrameworkSingleton: Closing ZooKeeper client.

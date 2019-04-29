@@ -1,0 +1,38 @@
+{"pattern1":{
+    "logLevel":"INFO",
+    "logType":"mapreduce.ImportJobBase",
+    "searchPattern": "\\w+\\s\\d+(.)\\d+\\sKB",
+    "extractPattern": "\\d+(.)\\d+"
+},
+"pattern2":{
+    "logLevel":"INFO",
+    "logType":"mapreduce.ImportJobBase",
+    "searchPattern": "\\d+(.)\\d+\\sseconds",
+    "extractPattern": "\\d+(.)\\d+"
+},
+"pattern3":{
+    "logLevel":"DEBUG",
+    "logType":"password.FilePasswordLoader",
+    "searchPattern": "\\/\\w+\\/\\w+\\/\\.\\w+",
+    "extractPattern": "\\/\\w+\\/\\w+\\/\\.\\w+"
+},
+"pattern5":{
+    "logLevel":"INFO",
+    "logType":"impl.YarnClientImpl",
+    "searchPattern": "application_\\d+\\_\\d+",
+    "extractPattern": "\\d+\\_\\d+"
+},
+"pattern5":{
+    "logLevel":"INFO",
+    "logType":"BEE",
+    "searchPattern": "\\d+(.)\\d+\\sseconds",
+    "extractPattern": "\\d+(.)\\d+"
+},
+"pattern6":{
+    "logLevel":"DEBUG",
+    "logType":"ipc.Client",
+    "searchPattern": "IPC\\sClient\\s\\(\\d+\\)",
+    "extractPattern": "\\d+"
+}
+
+}
